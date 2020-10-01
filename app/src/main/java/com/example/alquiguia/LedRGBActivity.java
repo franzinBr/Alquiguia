@@ -38,13 +38,6 @@ public class LedRGBActivity extends AppCompatActivity {
         txtRed.setText(getString(R.string.txtRed)+": "+Math.round(resistorRed)+"\u2126");
         txtGreen.setText(getString(R.string.txtGreen)+": \t\t\t\t\t\t"+Math.round(resistorGreen)+"\u2126");
         txtBlue.setText(getString(R.string.txtBlue)+": \t\t\t\t\t\t\t"+Math.round(resistorBlue)+"\u2126");
-
-       // txtRed.setText(String.valueOf(r));
-        //txtGreen.setText(String.valueOf(g));
-        //txtBlue.setText(String.valueOf(b));
-
-
-
     }
 
     @Override
