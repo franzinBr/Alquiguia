@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculadoraResistoresActivity">
+
+    <TextView
+        android:id="@+id/resultadoResEquivalente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calcularResEquivalente"
+        app:layout_constraintVertical_bias="0.354" />
+
+    <Button
+        android:id="@+id/calcularResEquivalente"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:background="@drawable/custom_btn"
+        android:onClick="calculo"
+
+        android:text="@string/botaoResistencia"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutGrade"
+        app:layout_constraintVertical_bias="0.19" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutGrade"
+        android:layout_width="409dp"
+        android:layout_height="159dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53">
+
+        <TextView
+            android:id="@+id/resistencia1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resistencia1"
+
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edResistencia1"
+            android:layout_width="match_parent"
+            android:importantForAutofill="no"
+            android:layout_height="54dp"
+            android:hint="@string/hint1"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/resistencia2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resistencia2"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/edResistencia2"
+            android:layout_width="match_parent"
+            android:importantForAutofill="no"
+            android:layout_height="54dp"
+            android:hint="@string/hint2"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgTipo"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:contentDescription="@string/circuito"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayoutGrade"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/serie" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

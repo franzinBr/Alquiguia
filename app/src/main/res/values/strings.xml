@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">Resicolor</string>
+
+    <string name="titulo_quatro">4 bandas</string>
+    <string name="titulo_ferramentas">Ferramentas</string>
+
+    <string name="txt1">1º Banda</string>
+    <string name="txt2">2º Banda</string>
+    <string name="txt3">3º Banda</string>
+    <string name="txt4">4º Banda</string>
+
+    <string name="txtTen">Tensão da fonte</string>
+    <string name="txtRed">Resistor Vermelho</string>
+    <string name="txtGreen">Resistor Verde</string>
+    <string name="txtBlue">Resistor Azul</string>
+
+    <string name="janelaRGB">LED RGB</string>
+    <string name="janelaCS">Calculadora em serie</string>
+    <string name="janelaCP">Calculadora em paralelo</string>
+
+    <string name="historico">Histórico</string>
+    <string name="alert_title">Limpar Historico</string>
+    <string name="alert_msg">Deseja limpar o historico?</string>
+    <string name="alert_r1">Sim</string>
+    <string name="alert_r2">Cancelar</string>
+
+
+
+    <string name="btnLed">Resistores RGB</string>
+    <string name="btnRes">Resistencia Equivalente</string>
+
+    <string name="serie">Resistores em Serie</string>
+    <string name="paralelo">Resistores em Paralelo</string>
+
+    <string name="resistencia1"> Resistencia 1</string>
+    <string name="resistencia2"> Resistencia 2</string>
+
+    <string name="botaoResistencia"> Calcular </string>
+    <string name="hint1">R1</string>
+    <string name="hint2">R2</string>
+    <string name="circuito">circuito eletrico</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="res">Resistor</string>
+    <string name="disco">Disco cromatico</string>
+
+    <string-array name="cores">
+        <item>Preto</item>
+        <item>Marrom</item>
+        <item>Vermelho</item>
+        <item>Laranja</item>
+        <item>Amarelo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Cinza</item>
+        <item>Branco</item>
+        <item>Dourado</item>
+        <item>Prata</item>
+    </string-array>
+
+    <string-array name="cores_digitos">
+        <item>Preto</item>
+        <item>Marrom</item>
+        <item>Vermelho</item>
+        <item>Laranja</item>
+        <item>Amarelo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Cinza</item>
+        <item>Branco</item>
+    </string-array>
+
+    <string-array name="cores_primeiro">
+        <item>Marrom</item>
+        <item>Vermelho</item>
+        <item>Laranja</item>
+        <item>Amarelo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Cinza</item>
+        <item>Branco</item>
+    </string-array>
+
+    <string-array name="cores_tolerancia">
+        <item>Marrom</item>
+        <item>Vermelho</item>
+        <item>Laranja</item>
+        <item>Amarelo</item>
+        <item>Verde</item>
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Cinza</item>
+        <item>Dourado</item>
+        <item>Prata</item>
+        <item>Nenhuma</item>
+    </string-array>
+
+
+    <string-array name="tolerancia">
+        <item>1</item>
+        <item>2</item>
+        <item>0.05</item>
+        <item>0.02</item>
+        <item>0.5</item>
+        <item>0.25</item>
+        <item>0.1</item>
+        <item>0.01</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+    </string-array>
+</resources>
